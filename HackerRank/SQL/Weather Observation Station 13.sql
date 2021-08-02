@@ -1,0 +1,1 @@
+select CAST(SUM(LAT_N) as Decimal(12,4)) from Station where LAT_N between 38.7880 and 137.2345;
